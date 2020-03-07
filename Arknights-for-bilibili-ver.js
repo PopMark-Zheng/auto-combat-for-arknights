@@ -5,7 +5,7 @@ if (start == true){
         waitForPackage("com.hypergryph.arknights.bilibili");/*等待b版明日方舟启动*/
         setScreenMetrics(1080,1920);/*设置屏幕分辨率*/
         sleep (5000);
-        var a = 0;/*循环两次*/
+        var a = 0;/*循环五次*/
         var b = 5
         do {
            a++

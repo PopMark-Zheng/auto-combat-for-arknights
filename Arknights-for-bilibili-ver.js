@@ -1,7 +1,7 @@
 auto.waitFor()
 var start = confirm ('建议先选择好关卡再启动(点击*确认*继续，点击*取消*退出)')
 if (start == true){
-        toast ("将于明日方舟启动5秒后启动");/*提示用户*/
+        toast ("将于明日方舟启动10秒后启动");/*提示用户*/
         waitForPackage("com.hypergryph.arknights.bilibili");/*等待b版明日方舟启动*/
         setScreenMetrics(1080,1920);/*设置屏幕分辨率*/
         sleep (5000);

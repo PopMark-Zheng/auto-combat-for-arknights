@@ -1,31 +1,42 @@
 auto.waitFor();
-//给text赋值以实现重复确认而不出现语言逻辑问题
-var text = '建议先选择好关卡再启动(点击*确认*继续，点击*取消*退出)'
-alert ("Please place the charging port of you phone on your right hand side.");
-//询问游戏主程序版本
-var options = ["明日方舟Bilibili版", "明日方舟官方版"]
-var i = dialogs.select("请选择一个选项", options);
-if (i === 0) {
-    var package = 'com.hypergryph.arknights.bilibili'
-    progress ()
-}
-else if (i === 1) {
-    var package = 'com.hypergryph.arknights'
-    progress ()
+var androidVer = device.sdkInt
+if (androidVer >= 28){
+    ready()
 }
 else {
-    toast('你啥也没选')
+    alert('Your Android version is lower than Android 7,please upgrade you device.This program will be shut down automatically.')
+    exit()
+}
+function ready (){
+    //给text赋值以实现重复确认而不出现语言逻辑问题
+    var text = '建议先选择好关卡再启动(点击*确认*继续，点击*取消*退出)'
+    alert ("Please place the charging port of you phone on your right hand side.");
+    //询问游戏主程序版本
+    var options = ["明日方舟Bilibili版", "明日方舟官方版"]
+    var i = dialogs.select("请选择一个选项", options);
+    if (i === 0) {
+        var package = 'com.hypergryph.arknights.bilibili'
+        progress ()
+    }
+    else if (i === 1) {
+        var package = 'com.hypergryph.arknights'
+        progress ()
+    }
+    else {
+        toast('你啥也没选')
+    }
 }
 //由此填入主程序
 function progress (){
-let start = confirm (text);
-if (start === true) {
-    times()
+    let start = confirm (text);
+    if (start === true) {
+        times()
     }
-else {
-    //由此退出
-    toast ('Exited');
-}
+    else {
+        //由此退出
+        toast ('Exited');
+        exit()
+    }
 }
 //由此填入主程序2
 function progressMain(){

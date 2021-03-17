@@ -3,9 +3,9 @@
 ArknightsHelper is a tool for Doctors to get in-game materials easily.
 
 ## Features
-*Support Version
- *0.5(2021.3)
-*Support Function
+* Support Version
+ * 0.5(2021.3)
+* Support Function
  * **Automatic Combat** : Just give the times you want to have,this thing will do it by itself.
  * **Custom Times** : As many as you have sanity.
  * **Smart Time Control** : It will do the right thing at the right time.

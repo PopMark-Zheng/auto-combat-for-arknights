@@ -1,8 +1,23 @@
-# auto-combat-for-arknights
-Based on Auto.JS
-<p>This JS is based on https://github.com/hyb1996/Auto.js</p>
-<p><s>自定义循环设计</s></p>
-<p><s>通用设计</s></p>
-<p><s>在不退出程序的前提下实现重复输入循环次数</s></p>
-<p>正在设计基于按键位置的点击</p>
-<p>本作已弃坑，随缘更新</p>
+# ArknightsHelper
+
+ArknightsHelper is a tool for Doctors to get in-game materials easily.
+
+## Features
+*Support Version
+ *0.5(2021.3)
+*Support Function
+ * **Automatic Combat** : Just give the times you want to have,this thing will do it by itself.
+ * **Custom Times** : As many as you have sanity.
+ * **Smart Time Control** : It will do the right thing at the right time.
+
+## Requirement
+-[Auto.js 4.1.0 or higher](https://github.com/hyb1996/Auto.js)
+-Null(if you have already compiled it)
+
+## Build
+*Auto.js(4.1.0 or higher)
+*Auto.js build tool(4.1.0 or higher)
+
+## Further Update
+*UI design
+*Combat Failed settings

@@ -1,0 +1,15 @@
+{
+  "assets": [],
+  "build": {
+    "build_id": "BE1C652F-5",
+    "build_number": 5,
+    "build_time": 1615950224077
+  },
+  "useFeatures": [],
+  "main": "main.js",
+  "name": "明日方舟自动刷关",
+  "packageName": "io.popmarkzheng.auto",
+  "scripts": {},
+  "versionCode": 1,
+  "versionName": "1.0.0"
+}

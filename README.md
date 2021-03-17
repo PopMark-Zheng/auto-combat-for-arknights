@@ -11,13 +11,13 @@ ArknightsHelper is a tool for Doctors to get in-game materials easily.
  * **Smart Time Control** : It will do the right thing at the right time.
 
 ## Requirement
--[Auto.js 4.1.0 or higher](https://github.com/hyb1996/Auto.js)
--Null(if you have already compiled it)
+ -[Auto.js 4.1.0 or higher](https://github.com/hyb1996/Auto.js)
+ -Null(if you have already compiled it)
 
 ## Build
-*Auto.js(4.1.0 or higher)
-*Auto.js build tool(4.1.0 or higher)
+ * Auto.js(4.1.0 or higher)
+ * Auto.js build tool(4.1.0 or higher)
 
 ## Further Update
-*UI design
-*Combat Failed settings
+ * UI design
+ * Combat Failed settings
